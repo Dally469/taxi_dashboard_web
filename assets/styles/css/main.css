@@ -1,0 +1,22 @@
+.dark-mode body {
+  background-color: #161c24;
+  color: #ebf4f1;
+}
+
+.sepia-mode body {
+  background-color: #f1e7d0;
+  color: #433422;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.truncate-2 {
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
